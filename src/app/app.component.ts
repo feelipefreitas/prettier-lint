@@ -8,10 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'teste-lint';
 
-
-
-  
   oi() {
-    console.log('FELIPE LINDO')               ;
+    // debugger;
+    // console.log('FELIPE LINDO');
+    const t = 'Olá';
   }
 }

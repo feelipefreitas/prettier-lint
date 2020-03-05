@@ -9,8 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "format:fix": "pretty-quick --staged",
-    "format:check": "pretty-quick --config ./.prettierrc.json --list-different \"src/{app,environments,assets}/**/*{.ts,.js,.json,.css,.scss}\"",
-    "code:fix-validation": "npm-run-all format:check format:fix lint"
+    "code:fix-validation": "npm-run-all format:fix lint"
   },
   "private": true,
   "dependencies": {
